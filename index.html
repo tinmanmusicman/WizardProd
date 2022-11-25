@@ -83,7 +83,9 @@ Hub</button>
 <input name="clearbuttons" id="clearbuttons1" type="radio">
 <label style="color: black;" for="clearbuttons1">Clear History<span style="color: #c0c0c0;"><span style="color: black;"</span></span></label><br />
 <input name="clearbuttons" id="clearbuttons2" type="radio">
-<label style="color: black;" for="clearbuttons1">Keep History<span style="color: #c0c0c0;"><span style="color: black;"</span></span></label><br />
+<label style="color: black;" for="clearbuttons2">Clear History<span style="color: c0c0c0;"><span style="color: black;"</span></span></label><br />
+<input name="dev" id="devbutt" type="radio">
+    <label style="color: black;" for="devbutt">Dev Button<Span style="color: #c0c0c0;"><span style="color: black;"</span></span></label><br />
                                   
 <form id="form-wizard" style="float: left;">
      <fieldset>
@@ -100,7 +102,8 @@ Hub</button>
              <tr>
                     <td valign="top">
                  <input name="yesno" id="ActivationCheck" onclick="yesnoCheck();" type="radio">
-                 <label style="color: black;" for="ActivationCheck"><span style="color: #c0c0c0;"><span style="color: black;">Activation&nbsp;</span></span></label><br />
+                 <label style="color: black;" for="ActivationCheck"><span 
+                    style="color: #c0c0c0;"><span style="color: black;">Activation&nbsp;</span></span></label><br />
                 
                 </td>
                  <td valign="top">
@@ -18105,6 +18108,7 @@ Hub</button>
      <br />
 
 <script>
+var developer = "Yes";
 //js
 //  reset buttons from current position
 function clearInputsMainPage() {
